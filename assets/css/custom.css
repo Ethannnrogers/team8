@@ -11,7 +11,7 @@ nav {
 }
 
 .header-title-3 {
-    color: grey!important;
+    color: #565656;
 }
 
 .header-title-2 {
@@ -150,6 +150,7 @@ footer p {
 
 #section-3 h4 {
     font-size: 1.4em;
+    color: #5b5b5b;
 }
 
 #section-3 .col {
@@ -196,7 +197,7 @@ footer p {
 }
 
 .hiw-p {
-    color: #868e96;
+    color: #565656;
     font-size: 20px;
     font-family: "Montserrat", Arial, sans-serif;
     text-align: center;
@@ -264,6 +265,11 @@ footer p {
 #section-pricing h5 {
     margin-top: 12em;
 }
+
+#section-pricing h2 {
+    color: #565656;
+}
+
 
 .pricing-small {
     color: grey;
