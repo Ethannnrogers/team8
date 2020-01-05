@@ -134,6 +134,10 @@ footer p {
     margin-top: -6em;
 }
 
+#section-features h5 {
+    color: #565656;
+}
+
 #section-features p {
     padding: 0 1em 0 1em;
 }
