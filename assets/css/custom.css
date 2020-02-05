@@ -382,6 +382,9 @@ footer p {
         min-width: 0px;
         left: 41%;
     }
+    /* .process-pics {
+        margin-left: 75px;
+    } */
 } 
 
 @media only screen and (max-width:990px) {
@@ -395,7 +398,9 @@ footer p {
         padding: 18px 48px;
         font-size: 1.3em;
     }
-   
+    .process-pics {
+        margin-left: 22%;
+    }
     
 } 
 
@@ -420,4 +425,16 @@ footer p {
    .text-right {
     text-align:center!important;
    }
+   .text-right-mb {
+       margin-bottom: 50px;
+   }
+   .process-pics {
+    margin-left: 39%;
+}
+}
+
+@media only screen and (max-width:601px) {
+    .process-pics {
+        margin-left: 30%;
+    }
 }
