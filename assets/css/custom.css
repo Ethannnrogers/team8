@@ -419,6 +419,11 @@ footer p {
     .how-img {
         display: none;
     }
+    .how-icon {
+        height: 100px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
    #section-3 {
        text-align:center!important;
    }
