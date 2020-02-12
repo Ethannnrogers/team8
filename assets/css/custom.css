@@ -6,9 +6,9 @@ body {
     font-family: 'Montserrat', sans-serif!important;
 }
 
-nav {
-    z-index: 1000;
-}
+/* #pb-navbar {
+    height: auto;
+} */
 
 .header-title-3 {
     color: #565656;
@@ -367,7 +367,7 @@ footer p {
     }
 } 
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1300px) {
     .pb_pricing_v1 h3 {
         font-size: 2em!important;
     }
@@ -380,7 +380,7 @@ footer p {
     #logo {
         width: 18%;
         min-width: 0px;
-        left: 41%;
+        left: 40%;
     }
     /* .process-pics {
         margin-left: 75px;
@@ -435,6 +435,6 @@ footer p {
 
 @media only screen and (max-width:601px) {
     .process-pics {
-        margin-left: 30%;
+        margin-left: 27%;
     }
 }
