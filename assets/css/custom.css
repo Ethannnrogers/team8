@@ -1,14 +1,46 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth!important;
   }
 
+
+input:focus {outline:none!important;}
+
+input, select, textarea{
+    color: white!important;
+    font-weight: bold;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif!important;
+    scroll-behavior: smooth!important;
+    font-family: 'Heebo', sans-serif!important;
 }
 
 /* #pb-navbar {
     height: auto;
 } */
+
+#after-cta {
+    padding-top: 250px;
+    /* background-color: #f2f4f9; */
+}
+
+#landing-cta {
+    margin-top: 230px;
+    padding: 150px 0 150px 0;
+    /* background-color: #f2f4f9; */
+    background-color: #015185;
+}
+
+#landing-cta h2{
+    color:white;
+    font-size: 3.5em;
+}
+
+#section-2 {
+    height: 400px;
+    background-color: white;
+    width: 100%;
+}
 
 .header-title-3 {
     color: #565656;
@@ -18,7 +50,72 @@ body {
     color: #868e96;
 }
 
+.blue-font-landing {
+    color:#3AA8EE;
+}
 
+#landing-body {
+    height: 100vh;
+    overflow-y: none;
+    font-family: 'Lato', sans-serif;
+}
+
+#landing-header {
+    margin-top: 200px;
+    color:white;
+}
+
+#landing-form input:focus {
+    outline: none!important;
+    border: none!important;
+}
+
+
+#landing-form input:active {
+    outline: none!important;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+#landing-form h2 {
+    text-shadow: none;
+    font-size: 1.8em;
+    font-weight: normal;
+    color: rgb(71, 71, 71);
+}
+
+#landing-header h1, h2, #landing-home-dropdown {
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+#landing-header h1 {
+    font-size: 3.8em;
+}
+
+#landing-home-dropdown {
+    margin-top:50px;
+    letter-spacing: 2px;
+}
+
+#landing-header h2 {
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+#landing-form {
+    width: 130%;
+    background-color: rgba(255, 255, 255, 0.15)!important;
+    height: auto;
+    margin-top: 70px;
+    margin-left: -50px!important;
+}
+
+#landing-form h2 {
+    color:white;
+}
 
 #s-1 .pb_slant-light::after {
     background-color: #015185!important;
@@ -37,6 +134,15 @@ footer p {
 .top-icons {
     height: 120px;
     width: auto;
+}
+
+#landing-home {
+    background: url("../images/landing-2.jpg")!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom!important;
+    height: auto!important;
+    padding-bottom: 12em;
 }
 
 #section-home {
@@ -78,7 +184,7 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    left: 45%;
+    left: 5%;
     z-index: 100;
     width: 10%;
     min-width: 200px;
@@ -141,6 +247,133 @@ footer p {
 
 #section-features p {
     padding: 0 1em 0 1em;
+}
+
+#section-features-landing {
+    font-family: 'Heebo', sans-serif!important;
+
+}
+
+.landing-p {
+    font-family: 'Heebo', sans-serif!important;
+    font-weight: normal!important;
+}
+
+#footer {
+    background-color: #015185!important;
+    height: 60px;
+    padding-top: 25px;
+    margin-bottom: -5px;
+}
+
+#footer-txt {
+    font-size: .6em!important;
+    color: rgba(159, 159, 159, 0.386)!important;
+}
+
+#facetime {
+    height: 540px;
+    width: auto;
+    position: absolute;
+    top: -180px;
+    right: 5%;
+}
+
+
+#in-app {
+    height: 540px;
+    width: auto;
+    position: absolute;
+    top: -120px;
+    right: 5%;
+}
+
+#planapp {
+    height: 540px;
+    width: auto;
+    position: absolute;
+    top: -120px;
+    right: 5%;
+}
+
+.h5-title {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+
+#section-landing-2 h3 {
+    margin-left: 38px;
+    z-index: 1;
+    position: relative;
+    line-height: 1.6em;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+#section-landing-2 p {
+    margin-left: 38px;
+    padding-right: 20%;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+#section-landing-2 span {
+    color: rgba(199, 197, 197, 0.514);
+    font-size: 8em;
+    position: absolute;
+    font-weight: bolder;
+    top: -90px;
+    z-index: 0;
+}
+
+.section-landing-row {
+    margin-top: 400px;
+}
+
+#section-features-landing .row{
+    margin-top: -6em;
+}
+
+#section-features-landing h5 {
+    color: rgb(40, 40, 40)!important;
+    font-family: 'Heebo', sans-serif!important;
+
+}
+
+#section-features-landing p {
+    color: rgb(84, 84, 84);
+    font-family: 'Heebo', sans-serif!important;
+
+}
+
+#section-landing-2 {
+    padding-bottom: 100px;
+}
+
+#section-landing-2 h5 {
+    color: rgb(84, 84, 84);
+    font-size: 1em;
+    /* text-transform: uppercase; */
+}
+
+#section-landing-2 h2 {
+    color: rgb(40, 40, 40);
+    font-size: 4em;
+    text-shadow: none;
+    padding-bottom: 100px;
+}
+
+#section-features-landing h5 {
+    color: #565656;
+}
+
+#section-features-landing p {
+    padding: 0 1em 0 1em;
+}
+
+#section-features-landing {
+    margin-top: 100px;
 }
 
 #section-3 {
@@ -328,6 +561,19 @@ footer p {
     z-index: 102;
 }
 
+#landing-form input {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+#landing-form label {
+    font-size: .7em;
+    margin-bottom:20px;
+    color: white;
+}
+
 .pricing-btn:hover {
     background-color: #01609f;
 }
@@ -346,6 +592,30 @@ footer p {
 #contact-btn {
     background-color: #3AA8EE;
     border: none;
+    margin-top: 40px;
+    border-radius: 0;
+    font-size: 1em;
+    padding: .9em;
+}
+
+#contact-btn:hover {
+    background-color: rgb(49, 156, 222);
+}
+
+#cta-btn {
+    background-color: #3AA8EE;
+    border: none;
+    margin-top: 55px;
+    border-radius: 0;
+    font-size: 1em;
+    padding: .9em;
+    width: 40%;
+    text-align: center;
+}
+
+#cta-btn:hover {
+    background-color: rgb(49, 156, 222);
+
 }
 
 #section-reviews {
@@ -356,6 +626,30 @@ footer p {
 #selected-pricing-2 {
     display: none;
 } 
+
+.top-nav {
+    background-color: #015185;
+    height: 100px;
+}
+
+.top-nav ul {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.top-nav a {
+    color: white;
+   
+}
+
+#section-success-1 {
+    height: 2000px;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
 
 @media only screen and (max-width: 1440px) and (min-width: 1200px) {
     #col-md-select {
