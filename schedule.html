@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow:hidden;">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,8 +27,18 @@
     <link rel="stylesheet" href="assets/css/landing-2.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164584638-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164584638-1');
+    </script>
+
 	</head>
-	<body id="schedule-body">
+	<body id="schedule-body" style="overflow:hidden; overflow-y:hidden!important;" >
 
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/ethanrogers" style="min-width:320px;height:630px;"></div>
@@ -36,20 +46,11 @@
 <!-- Calendly inline widget end -->
 
 
-    <footer id="footer" class="bg-light" role="contentinfo">
+    <footer id="footer" class="bg-light" role="contentinfo" style="position:absolute; bottom:0;width:100%;">
       <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <!-- <ul class="list-inline">
-              <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-linkedin"></i></a></li>
-            </ul> -->
-          </div>
-        </div>
         <div class="row">
           <div class="col text-center">
-            <p class="pb_font-14" id="footer-txt">Copyright &copy; 2020 Team8 Fitness | Design by <a href="https://ethanrogers.us" style="color:inherit;">Ethan</a></p>
+            <p class="pb_font-14" id="footer-txt">Copyright &copy; 2020 Team8 Fitness | Design by <a href="#" style="color:inherit;">Ethan</a></p>
           </div>
         </div>
       </div>
