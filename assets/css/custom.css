@@ -163,6 +163,7 @@ footer p {
     background-position: bottom!important;
     height: auto!important;
     padding-bottom: 12em;
+    padding-top: 10vh;
 }
 
 #section-home {
