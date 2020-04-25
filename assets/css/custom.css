@@ -16,8 +16,6 @@ body {
     font-family: 'Heebo', sans-serif!important;
 }
 
-#schedule-body {
-}
 
 #after-cta {
     padding-top: 250px;
@@ -135,6 +133,26 @@ footer p {
     height: 120px;
     width: auto;
 }
+
+#thanks-body {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(1, 1, 45, 0.55)), url("../images/landing-2.jpg");
+    background-size: cover!important; 
+    height: 100vh;
+}
+
+#thanks-body h1 {
+    color: white;
+    font-size: 4em;
+    padding-top: 35vh;
+}
+
+#thanks-body h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+
 
 #landing-home {
     /* background: url("../images/landing-2.jpg")!important;
@@ -794,6 +812,12 @@ footer p {
     .process-pics {
         margin-left: 27%;
     }
+    #thanks-body h1 {
+        font-size: 3em;
+    }
+    #thanks-body h3 {
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width:475px) {
@@ -824,6 +848,7 @@ footer p {
         top: 10px;
         right: 10%;
     }
+    
 }
 
 @media only screen and (max-width:400px) {
