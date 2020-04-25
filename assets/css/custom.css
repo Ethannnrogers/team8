@@ -137,7 +137,9 @@ footer p {
 }
 
 #landing-home {
-    background: url("../images/landing-2.jpg")!important;
+    /* background: url("../images/landing-2.jpg")!important;
+     */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(1, 1, 45, 0.4)), url("../images/landing-2.jpg");
     background-size: cover!important;
     background-repeat: no-repeat!important;
     background-position: bottom!important;
